@@ -1,14 +1,62 @@
 {
+  "Borja Rodríguez|league": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:33:48.534Z",
+    "lectura": "disponible"
+  },
+  "Borja Rodríguez|accelerator": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:33:53.986Z",
+    "lectura": "disponible"
+  },
+  "Eduardo Salado|league": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:33:59.550Z",
+    "lectura": "disponible"
+  },
+  "Eduardo Salado|accelerator": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:34:04.953Z",
+    "lectura": "disponible"
+  },
+  "Melina Herzkovich|league": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:34:15.432Z",
+    "lectura": "disponible"
+  },
+  "Melina Herzkovich|accelerator": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:34:25.713Z",
+    "lectura": "disponible"
+  },
   "Cynthia Robotti|league": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-15T18:30:05.840Z",
+    "actualizado": "2026-10-15T18:34:36.155Z",
     "lectura": "disponible"
   },
   "Cynthia Robotti|accelerator": {
     "estado": "agotado",
     "racha": 0,
-    "actualizado": "2026-10-15T18:30:16.504Z",
+    "actualizado": "2026-10-15T18:34:41.889Z",
     "lectura": "agotado"
+  },
+  "René Zuleta|league": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:34:47.246Z",
+    "lectura": "disponible"
+  },
+  "René Zuleta|accelerator": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:34:52.547Z",
+    "lectura": "disponible"
   }
 }
