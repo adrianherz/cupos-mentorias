@@ -5,8 +5,16 @@ import { chromium } from "playwright";
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 
 const LINKS = [
+  { mentor: "Borja Rodríguez", programa: "league", url: "https://reservas.lemonfieldpartners.com/mentoria-40-league" },
+  { mentor: "Borja Rodríguez", programa: "accelerator", url: "https://reservas.lemonfieldpartners.com/mentoria-40-plus-accelerator" },
+  { mentor: "Eduardo Salado", programa: "league", url: "https://calendar.befocusy.com/mentoria-privada-40-plus-league" },
+  { mentor: "Eduardo Salado", programa: "accelerator", url: "https://calendar.befocusy.com/mentoria-privada-40-plus-accelerator" },
+  { mentor: "Melina Herzkovich", programa: "league", url: "https://schedule.vichvision.com/mentoria-privada-league" },
+  { mentor: "Melina Herzkovich", programa: "accelerator", url: "https://schedule.vichvision.com/mentoria-privada-accelerator" },
   { mentor: "Cynthia Robotti", programa: "league", url: "https://tidycal.com/cynthiarobotti/mentoria-marca-personal-linkedin-40plus-league" },
   { mentor: "Cynthia Robotti", programa: "accelerator", url: "https://tidycal.com/cynthiarobotti/mentoria-marca-personal-linkedin" },
+  { mentor: "René Zuleta", programa: "league", url: "https://tidycal.com/renezuleta/mentoria-league" },
+  { mentor: "René Zuleta", programa: "accelerator", url: "https://tidycal.com/renezuleta/mentoria-accelerator" },
 ];
 const SOLD_OUT = /no se encontraron fechas|no hay fechas disponibles|no dates available|no availability/i;
 const STATUS_FILE = "status.json";
