@@ -42,8 +42,8 @@
     "lectura": "disponible"
   },
   "Cynthia Robotti|accelerator": {
-    "estado": "agotado",
-    "racha": 0,
+    "estado": "disponible",
+    "racha": 1,
     "actualizado": "2026-10-15T18:34:41.889Z",
     "lectura": "agotado"
   },
