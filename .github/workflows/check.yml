@@ -1,0 +1,29 @@
+name: Revisar cupos
+on:
+  schedule: [{ cron: "*/5 * * * *" }]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: cupos, cancel-in-progress: false }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm install
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/ms-playwright, key: pw-1.49.1 }
+      - run: npx playwright install --with-deps chromium
+      - run: node check.mjs
+        env: { SLACK_WEBHOOK_URL: "${{ secrets.SLACK_WEBHOOK_URL }}" }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: debug, path: debug }
+      - name: Guardar estado
+        run: |
+          git config user.name "cupos-bot"
+          git config user.email "cupos-bot@users.noreply.github.com"
+          git add status.json
+          git diff --cached --quiet || (git commit -m "estado de cupos" && git push)
