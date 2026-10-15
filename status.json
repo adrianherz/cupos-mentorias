@@ -1,1 +1,14 @@
-{}
+{
+  "Cynthia Robotti|league": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:23:29.868Z",
+    "lectura": "disponible"
+  },
+  "Cynthia Robotti|accelerator": {
+    "estado": "disponible",
+    "racha": 0,
+    "actualizado": "2026-10-15T18:23:35.244Z",
+    "lectura": "desconocido"
+  }
+}
