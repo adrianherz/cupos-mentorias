@@ -8,7 +8,7 @@ const LINKS = [
   { mentor: "Cynthia Robotti", programa: "league", url: "https://tidycal.com/cynthiarobotti/mentoria-marca-personal-linkedin-40plus-league" },
   { mentor: "Cynthia Robotti", programa: "accelerator", url: "https://tidycal.com/cynthiarobotti/mentoria-marca-personal-linkedin" },
 ];
-const SOLD_OUT = /no hay fechas disponibles|no dates available|no availability/i;
+const SOLD_OUT = /no se encontraron fechas|no hay fechas disponibles|no dates available|no availability/i;
 const STATUS_FILE = "status.json";
 const CONFIRMACIONES = 2;
 
