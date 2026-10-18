@@ -2,61 +2,61 @@
   "Borja Rodríguez|league": {
     "estado": "agotado",
     "racha": 0,
-    "actualizado": "2026-10-18T17:11:29.796Z",
+    "actualizado": "2026-10-18T19:27:35.564Z",
     "lectura": "agotado"
   },
   "Borja Rodríguez|accelerator": {
     "estado": "agotado",
     "racha": 0,
-    "actualizado": "2026-10-18T17:11:39.800Z",
-    "lectura": "agotado"
+    "actualizado": "2026-10-18T19:28:20.602Z",
+    "lectura": "desconocido"
   },
   "Eduardo Salado|league": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:11:49.917Z",
-    "lectura": "disponible"
+    "actualizado": "2026-10-18T19:29:05.630Z",
+    "lectura": "desconocido"
   },
   "Eduardo Salado|accelerator": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:11:55.148Z",
-    "lectura": "disponible"
+    "actualizado": "2026-10-18T19:29:50.661Z",
+    "lectura": "desconocido"
   },
   "Melina Herzkovich|league": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:12:00.351Z",
+    "actualizado": "2026-10-18T19:29:55.861Z",
     "lectura": "disponible"
   },
   "Melina Herzkovich|accelerator": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:12:10.334Z",
+    "actualizado": "2026-10-18T19:30:00.975Z",
     "lectura": "disponible"
   },
   "Cynthia Robotti|league": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:12:15.413Z",
+    "actualizado": "2026-10-18T19:30:06.819Z",
     "lectura": "disponible"
   },
   "Cynthia Robotti|accelerator": {
     "estado": "agotado",
     "racha": 0,
-    "actualizado": "2026-10-18T17:12:20.445Z",
+    "actualizado": "2026-10-18T19:30:12.009Z",
     "lectura": "agotado"
   },
   "René Zuleta|league": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:12:25.686Z",
+    "actualizado": "2026-10-18T19:30:17.377Z",
     "lectura": "disponible"
   },
   "René Zuleta|accelerator": {
     "estado": "disponible",
     "racha": 0,
-    "actualizado": "2026-10-18T17:12:30.648Z",
+    "actualizado": "2026-10-18T19:30:22.458Z",
     "lectura": "disponible"
   }
 }
